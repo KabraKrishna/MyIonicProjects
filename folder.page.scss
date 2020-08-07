@@ -1,0 +1,47 @@
+ion-menu-button {
+  color: #fff;
+}
+
+
+$white-color: #fff;
+$height100: 100%;
+
+ion-card {
+    width: 96%;
+    margin: 2rem auto 0;
+    --background: transparent;
+    box-shadow: none;
+
+}
+
+ion-content{
+    --background: url('../../assets/bg.png') no-repeat;
+    background-position: center;
+}
+
+ion-toolbar{
+   --background: #373738;
+    color: #fff;
+    height: 3rem;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+ion-button{
+    font-weight: 300;
+    --background: #373738;
+    --border-radius: 50px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ion-card:nth-child(2) {
+    text-align: center;
+    color:#373738;;
+   
+    &  h2 {
+        font-size: 38px;
+        font-family: fantasy;
+        margin-bottom: 16px;
+        
+     }
+}
+ 

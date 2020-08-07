@@ -1,0 +1,44 @@
+<ion-toolbar>
+  <ion-buttons slot="start">
+    <ion-menu-button></ion-menu-button>
+  </ion-buttons>
+  <ion-title style="margin-right: 3rem;">{{ folder }}</ion-title>
+</ion-toolbar>
+
+<ion-content>
+  <ion-router-outlet></ion-router-outlet>
+</ion-content>
+
+<!-- 
+  <app-home *ngIf="customView.mode === 'Home'"></app-home>
+  <app-orders *ngIf="customView.mode === 'Orders'"></app-orders>
+  <app-profile *ngIf="customView.mode === 'Profile'"></app-profile>
+ -->
+
+
+<!-- 
+  <ion-card>
+    <ion-grid>
+      <ion-row justify-content-center>
+        <ion-col style="display: flex;justify-content: center;">
+          <img src="../../assets/logo.png" width="250">
+        </ion-col>
+        </ion-row>
+        </ion-grid>
+  </ion-card>
+  
+  <ion-card>
+    <h2>Welcome, {{ userName }}</h2>
+    <h5>How would like to use our services...</h5>
+  </ion-card>
+  
+  <ion-card>
+    <ion-button expand="block" [routerLink]="['/location'] ">
+      LOCATE A STORE
+    </ion-button>
+    <ion-button expand="block" (click)="presentModal()" [routerLink]="['pickup']">
+      SCHEDULE A PICKUP
+    </ion-button>
+  </ion-card>
+ -->
+
